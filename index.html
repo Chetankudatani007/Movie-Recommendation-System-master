@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr.DD</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+</head>
+
+<body data-barba="wrapper">
+    <section class="header">
+        <div class="logo">
+            <span>CK Movies</span>
+        </div>
+        <!--         <div class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div> -->
+    </section>
+    <main>
+        <header>
+            <div class="search_input">
+                <input class="inputSearch" id="searchBar" type="text" placeholder="Search for Movies">
+            </div>
+        </header>
+        <section class="content_parent">
+            <section class="content">
+                <div class="select_menu_wrapper">
+                    <select id="genre">
+                        <option value="all" selected>Genre</option>
+                    </select>
+                    <select id="year">
+                        <option value="all" selected>Year</option>
+                    </select>
+                    <select id="lang">
+                        <option value="all" selected>Language</option>
+                    </select>
+                    <select id="rating">
+                        <option value="all" selected>Rating</option>
+                    </select>
+                    <button id="apply">Apply</button>
+                </div>
+                <section id="cardContainer" class="cards_wrapper">
+                    <!---All Movie Cards will be displayed here-->
+                </section>
+                <section class="btn">
+                    <button id="load-more-btn">Load More</button>
+                </section>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col watermark">
+                    Developed and Maintained by Chetan Kudatani
+                </div>
+            </div>
+            <div class="row">
+                <div class="col copyright">
+                    Copyright &copy; - All Rights Reserved
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col portfolio">
+                    <a href=""
+                        target="_blank"></a>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col social">
+                    <ul class="media-icons">
+                        <li><a href="https://github.com/Chetankudatani007/Movie-Recommendation-System-master" target="_blank"><img src="img/github.png"
+                                    alt=""></a></li>
+                        <li><a href="https://www.linkedin.com/in/chetan-kudatani-08577a30b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img
+                                    src="img/linkedin.png" alt=""></a></li>
+                        <li><a href="https://wa.me/7892610820" target="_blank"><img src="img/whatsapp.png" alt=""></a>
+                        </li>
+                        <li><a href="mailto:chetankudatani007@gmail.com"><img src="img/email.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
